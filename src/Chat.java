@@ -7,7 +7,7 @@ public class Chat {
     String author;
     Date dataSozdania;
     Date dataPoslObnovl;
-    ArrayList<Soobsh> soosbchenia;
+    ArrayList<Soobsch> soosbchenia;
 
     public Chat() {
     }
@@ -16,12 +16,8 @@ public class Chat {
         this.nazvanie = nazvanie;
         this.author = author;
         this.dataSozdania = dataSozdania;
-        soosbchenia = new ArrayList<Soobsh>();
+        soosbchenia = new ArrayList<Soobsch>();
     }
-
-
-//getters and setters hahaha
-
 
     public String getNazvanie() {
         return nazvanie;
@@ -55,15 +51,11 @@ public class Chat {
         this.dataPoslObnovl = dataPoslObnovl;
     }
 
-    public ArrayList<Soobsh> getSoosbchenia() {
+    public ArrayList<Soobsch> getSoosbchenia() {
         return soosbchenia;
     }
 
-    public void setSoosbchenia(ArrayList<Soobsh> soosbchenia) {
+    public void setSoosbchenia(ArrayList<Soobsch> soosbchenia) {
         this.soosbchenia = soosbchenia;
     }
-
-
-
-
 }

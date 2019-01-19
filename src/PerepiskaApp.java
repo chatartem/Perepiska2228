@@ -1,11 +1,10 @@
-public class PerepiskaApp {
+import javax.swing.*;
 
+public class PerepiskaApp extends JFrame {
     public static void main(String[] args){
-
-        ChatController cc = new ChatController("6");
-
-        cc.dobavitSoobsch("Hello world!");
-
+        /**/
+        Main main = new Main();
+        main.setVisible(true);
 
     }
 }
